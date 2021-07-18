@@ -65,37 +65,15 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2170/proprietary/odm/lib/hw/fingerprint.goodix_G5.default.so:$(TARGET_COPY_OUT_ODM)/lib/hw/fingerprint.goodix_G5.default.so \
     vendor/realme/RMX2170/proprietary/odm/lib/hw/fingerprint.goodix_G6.default.so:$(TARGET_COPY_OUT_ODM)/lib/hw/fingerprint.goodix_G6.default.so \
     vendor/realme/RMX2170/proprietary/odm/lib/hw/vendor.oplus.hardware.orms.ormsHalService@1.0-impl.so:$(TARGET_COPY_OUT_ODM)/lib/hw/vendor.oplus.hardware.orms.ormsHalService@1.0-impl.so \
-    vendor/realme/RMX2170/proprietary/odm/lib/libAlgoInterface.so:$(TARGET_COPY_OUT_ODM)/lib/libAlgoInterface.so \
-    vendor/realme/RMX2170/proprietary/odm/lib/libAlgoProcess.so:$(TARGET_COPY_OUT_ODM)/lib/libAlgoProcess.so \
-    vendor/realme/RMX2170/proprietary/odm/lib/libAncHumBokeh.so:$(TARGET_COPY_OUT_ODM)/lib/libAncHumBokeh.so \
-    vendor/realme/RMX2170/proprietary/odm/lib/libAncHumBokehPost.so:$(TARGET_COPY_OUT_ODM)/lib/libAncHumBokehPost.so \
-    vendor/realme/RMX2170/proprietary/odm/lib/libAncHumVideoBase.so:$(TARGET_COPY_OUT_ODM)/lib/libAncHumVideoBase.so \
-    vendor/realme/RMX2170/proprietary/odm/lib/libAncHumVideoBasePost.so:$(TARGET_COPY_OUT_ODM)/lib/libAncHumVideoBasePost.so \
     vendor/realme/RMX2170/proprietary/odm/lib/libCOppLceTonemapAPI.so:$(TARGET_COPY_OUT_ODM)/lib/libCOppLceTonemapAPI.so \
     vendor/realme/RMX2170/proprietary/odm/lib/libDeVIS.so:$(TARGET_COPY_OUT_ODM)/lib/libDeVIS.so \
     vendor/realme/RMX2170/proprietary/odm/lib/libDxHdcp.so:$(TARGET_COPY_OUT_ODM)/lib/libDxHdcp.so \
     vendor/realme/RMX2170/proprietary/odm/lib/libEIS.so:$(TARGET_COPY_OUT_ODM)/lib/libEIS.so \
-    vendor/realme/RMX2170/proprietary/odm/lib/libFaceBeautyCap.so:$(TARGET_COPY_OUT_ODM)/lib/libFaceBeautyCap.so \
-    vendor/realme/RMX2170/proprietary/odm/lib/libFaceBeautyPre.so:$(TARGET_COPY_OUT_ODM)/lib/libFaceBeautyPre.so \
     vendor/realme/RMX2170/proprietary/odm/lib/libOGLManager.so:$(TARGET_COPY_OUT_ODM)/lib/libOGLManager.so \
-    vendor/realme/RMX2170/proprietary/odm/lib/libPerfectlyClearCruxOpt.so:$(TARGET_COPY_OUT_ODM)/lib/libPerfectlyClearCruxOpt.so \
     vendor/realme/RMX2170/proprietary/odm/lib/libPlatformValidatorShared.so:$(TARGET_COPY_OUT_ODM)/lib/libPlatformValidatorShared.so \
-    vendor/realme/RMX2170/proprietary/odm/lib/libPolarrRender.so:$(TARGET_COPY_OUT_ODM)/lib/libPolarrRender.so \
     vendor/realme/RMX2170/proprietary/odm/lib/libSNPE.so:$(TARGET_COPY_OUT_ODM)/lib/libSNPE.so \
     vendor/realme/RMX2170/proprietary/odm/lib/libSNPE_G.so:$(TARGET_COPY_OUT_ODM)/lib/libSNPE_G.so \
-    vendor/realme/RMX2170/proprietary/odm/lib/libStarMode.so:$(TARGET_COPY_OUT_ODM)/lib/libStarMode.so \
-    vendor/realme/RMX2170/proprietary/odm/lib/libTrafficMode.so:$(TARGET_COPY_OUT_ODM)/lib/libTrafficMode.so \
-    vendor/realme/RMX2170/proprietary/odm/lib/libVDBayerHDR.so:$(TARGET_COPY_OUT_ODM)/lib/libVDBayerHDR.so \
-    vendor/realme/RMX2170/proprietary/odm/lib/libVDBlurlessAPI_v2.so:$(TARGET_COPY_OUT_ODM)/lib/libVDBlurlessAPI_v2.so \
-    vendor/realme/RMX2170/proprietary/odm/lib/libVDExternal.so:$(TARGET_COPY_OUT_ODM)/lib/libVDExternal.so \
-    vendor/realme/RMX2170/proprietary/odm/lib/libVDHexagonBlurless_v2_skel.so:$(TARGET_COPY_OUT_ODM)/lib/libVDHexagonBlurless_v2_skel.so \
-    vendor/realme/RMX2170/proprietary/odm/lib/libVDSuperPhotoAPI.so:$(TARGET_COPY_OUT_ODM)/lib/libVDSuperPhotoAPI.so \
-    vendor/realme/RMX2170/proprietary/odm/lib/libWaterMark.so:$(TARGET_COPY_OUT_ODM)/lib/libWaterMark.so \
-    vendor/realme/RMX2170/proprietary/odm/lib/libWaterMode.so:$(TARGET_COPY_OUT_ODM)/lib/libWaterMode.so \
-    vendor/realme/RMX2170/proprietary/odm/lib/libXDocProcessSDK.so:$(TARGET_COPY_OUT_ODM)/lib/libXDocProcessSDK.so \
     vendor/realme/RMX2170/proprietary/odm/lib/lib_rectify.so:$(TARGET_COPY_OUT_ODM)/lib/lib_rectify.so \
-    vendor/realme/RMX2170/proprietary/odm/lib/libancbase_rt_bokeh.so:$(TARGET_COPY_OUT_ODM)/lib/libancbase_rt_bokeh.so \
-    vendor/realme/RMX2170/proprietary/odm/lib/libancbase_rt_retain.so:$(TARGET_COPY_OUT_ODM)/lib/libancbase_rt_retain.so \
     vendor/realme/RMX2170/proprietary/odm/lib/libapsexif.so:$(TARGET_COPY_OUT_ODM)/lib/libapsexif.so \
     vendor/realme/RMX2170/proprietary/odm/lib/libapsjpeg.so:$(TARGET_COPY_OUT_ODM)/lib/libapsjpeg.so \
     vendor/realme/RMX2170/proprietary/odm/lib/libarcsoft_distortion_correction.so:$(TARGET_COPY_OUT_ODM)/lib/libarcsoft_distortion_correction.so \
@@ -183,47 +161,13 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2170/proprietary/odm/lib64/hw/fingerprint.goodix_G5.default.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/fingerprint.goodix_G5.default.so \
     vendor/realme/RMX2170/proprietary/odm/lib64/hw/fingerprint.goodix_G6.default.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/fingerprint.goodix_G6.default.so \
     vendor/realme/RMX2170/proprietary/odm/lib64/hw/vendor.oplus.hardware.orms.ormsHalService@1.0-impl.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/vendor.oplus.hardware.orms.ormsHalService@1.0-impl.so \
-    vendor/realme/RMX2170/proprietary/odm/lib64/libAlgoInterface.so:$(TARGET_COPY_OUT_ODM)/lib64/libAlgoInterface.so \
-    vendor/realme/RMX2170/proprietary/odm/lib64/libAlgoProcess.so:$(TARGET_COPY_OUT_ODM)/lib64/libAlgoProcess.so \
-    vendor/realme/RMX2170/proprietary/odm/lib64/libAncHumBokeh.so:$(TARGET_COPY_OUT_ODM)/lib64/libAncHumBokeh.so \
-    vendor/realme/RMX2170/proprietary/odm/lib64/libAncHumBokehPost.so:$(TARGET_COPY_OUT_ODM)/lib64/libAncHumBokehPost.so \
-    vendor/realme/RMX2170/proprietary/odm/lib64/libAncHumVideoBase.so:$(TARGET_COPY_OUT_ODM)/lib64/libAncHumVideoBase.so \
-    vendor/realme/RMX2170/proprietary/odm/lib64/libAncHumVideoBasePost.so:$(TARGET_COPY_OUT_ODM)/lib64/libAncHumVideoBasePost.so \
-    vendor/realme/RMX2170/proprietary/odm/lib64/libAncSegmentSdk.so:$(TARGET_COPY_OUT_ODM)/lib64/libAncSegmentSdk.so \
     vendor/realme/RMX2170/proprietary/odm/lib64/libCOppLceTonemapAPI.so:$(TARGET_COPY_OUT_ODM)/lib64/libCOppLceTonemapAPI.so \
     vendor/realme/RMX2170/proprietary/odm/lib64/libDeVIS.so:$(TARGET_COPY_OUT_ODM)/lib64/libDeVIS.so \
     vendor/realme/RMX2170/proprietary/odm/lib64/libEIS.so:$(TARGET_COPY_OUT_ODM)/lib64/libEIS.so \
-    vendor/realme/RMX2170/proprietary/odm/lib64/libFaceBeautyCap.so:$(TARGET_COPY_OUT_ODM)/lib64/libFaceBeautyCap.so \
-    vendor/realme/RMX2170/proprietary/odm/lib64/libFaceBeautyPre.so:$(TARGET_COPY_OUT_ODM)/lib64/libFaceBeautyPre.so \
-    vendor/realme/RMX2170/proprietary/odm/lib64/libFaceDistortionCorrection.so:$(TARGET_COPY_OUT_ODM)/lib64/libFaceDistortionCorrection.so \
     vendor/realme/RMX2170/proprietary/odm/lib64/libOGLManager.so:$(TARGET_COPY_OUT_ODM)/lib64/libOGLManager.so \
-    vendor/realme/RMX2170/proprietary/odm/lib64/libOPLUS_SCPortrait.so:$(TARGET_COPY_OUT_ODM)/lib64/libOPLUS_SCPortrait.so \
-    vendor/realme/RMX2170/proprietary/odm/lib64/libPerfectlyClearCrux.so:$(TARGET_COPY_OUT_ODM)/lib64/libPerfectlyClearCrux.so \
-    vendor/realme/RMX2170/proprietary/odm/lib64/libPerfectlyClearCruxOpt.so:$(TARGET_COPY_OUT_ODM)/lib64/libPerfectlyClearCruxOpt.so \
-    vendor/realme/RMX2170/proprietary/odm/lib64/libPlatformValidatorShared.so:$(TARGET_COPY_OUT_ODM)/lib64/libPlatformValidatorShared.so \
-    vendor/realme/RMX2170/proprietary/odm/lib64/libPolarrRender.so:$(TARGET_COPY_OUT_ODM)/lib64/libPolarrRender.so \
-    vendor/realme/RMX2170/proprietary/odm/lib64/libRedeyeReduce.so:$(TARGET_COPY_OUT_ODM)/lib64/libRedeyeReduce.so \
     vendor/realme/RMX2170/proprietary/odm/lib64/libSNPE.so:$(TARGET_COPY_OUT_ODM)/lib64/libSNPE.so \
     vendor/realme/RMX2170/proprietary/odm/lib64/libSNPE_G.so:$(TARGET_COPY_OUT_ODM)/lib64/libSNPE_G.so \
-    vendor/realme/RMX2170/proprietary/odm/lib64/libStarMode.so:$(TARGET_COPY_OUT_ODM)/lib64/libStarMode.so \
-    vendor/realme/RMX2170/proprietary/odm/lib64/libTrafficMode.so:$(TARGET_COPY_OUT_ODM)/lib64/libTrafficMode.so \
-    vendor/realme/RMX2170/proprietary/odm/lib64/libVDBayerHDR.so:$(TARGET_COPY_OUT_ODM)/lib64/libVDBayerHDR.so \
-    vendor/realme/RMX2170/proprietary/odm/lib64/libVDBlurless.so:$(TARGET_COPY_OUT_ODM)/lib64/libVDBlurless.so \
-    vendor/realme/RMX2170/proprietary/odm/lib64/libVDDualCameraBlurlessAPI.so:$(TARGET_COPY_OUT_ODM)/lib64/libVDDualCameraBlurlessAPI.so \
-    vendor/realme/RMX2170/proprietary/odm/lib64/libVDExternal.so:$(TARGET_COPY_OUT_ODM)/lib64/libVDExternal.so \
-    vendor/realme/RMX2170/proprietary/odm/lib64/libVDHexagonBlurless_v2_skel.so:$(TARGET_COPY_OUT_ODM)/lib64/libVDHexagonBlurless_v2_skel.so \
-    vendor/realme/RMX2170/proprietary/odm/lib64/libVDPostureDetection.so:$(TARGET_COPY_OUT_ODM)/lib64/libVDPostureDetection.so \
-    vendor/realme/RMX2170/proprietary/odm/lib64/libVDSuperPhotoAPI.so:$(TARGET_COPY_OUT_ODM)/lib64/libVDSuperPhotoAPI.so \
-    vendor/realme/RMX2170/proprietary/odm/lib64/libVDUpScale.so:$(TARGET_COPY_OUT_ODM)/lib64/libVDUpScale.so \
-    vendor/realme/RMX2170/proprietary/odm/lib64/libWaterMark.so:$(TARGET_COPY_OUT_ODM)/lib64/libWaterMark.so \
-    vendor/realme/RMX2170/proprietary/odm/lib64/libWaterMode.so:$(TARGET_COPY_OUT_ODM)/lib64/libWaterMode.so \
-    vendor/realme/RMX2170/proprietary/odm/lib64/libXDocProcessSDK.so:$(TARGET_COPY_OUT_ODM)/lib64/libXDocProcessSDK.so \
     vendor/realme/RMX2170/proprietary/odm/lib64/lib_rectify.so:$(TARGET_COPY_OUT_ODM)/lib64/lib_rectify.so \
-    vendor/realme/RMX2170/proprietary/odm/lib64/libaisd.so:$(TARGET_COPY_OUT_ODM)/lib64/libaisd.so \
-    vendor/realme/RMX2170/proprietary/odm/lib64/libalhDZ.so:$(TARGET_COPY_OUT_ODM)/lib64/libalhDZ.so \
-    vendor/realme/RMX2170/proprietary/odm/lib64/libancbase_rt_bokeh.so:$(TARGET_COPY_OUT_ODM)/lib64/libancbase_rt_bokeh.so \
-    vendor/realme/RMX2170/proprietary/odm/lib64/libancbase_rt_retain.so:$(TARGET_COPY_OUT_ODM)/lib64/libancbase_rt_retain.so \
-    vendor/realme/RMX2170/proprietary/odm/lib64/libancbase_segment.so:$(TARGET_COPY_OUT_ODM)/lib64/libancbase_segment.so \
     vendor/realme/RMX2170/proprietary/odm/lib64/libaps_frame_registration.so:$(TARGET_COPY_OUT_ODM)/lib64/libaps_frame_registration.so \
     vendor/realme/RMX2170/proprietary/odm/lib64/libapsdarksight.so:$(TARGET_COPY_OUT_ODM)/lib64/libapsdarksight.so \
     vendor/realme/RMX2170/proprietary/odm/lib64/libapsexif.so:$(TARGET_COPY_OUT_ODM)/lib64/libapsexif.so \
@@ -231,27 +175,15 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2170/proprietary/odm/lib64/libarcsoft_distortion_correction.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_distortion_correction.so \
     vendor/realme/RMX2170/proprietary/odm/lib64/libarcsoft_dualcam_bokeh_api.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_dualcam_bokeh_api.so \
     vendor/realme/RMX2170/proprietary/odm/lib64/libarcsoft_dualcam_bokeh_frt_api.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_dualcam_bokeh_frt_api.so \
-    vendor/realme/RMX2170/proprietary/odm/lib64/libarcsoft_dualcam_refocus_frt_image.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_dualcam_refocus_frt_image.so \
-    vendor/realme/RMX2170/proprietary/odm/lib64/libarcsoft_dualcam_refocus_frt_preview.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_dualcam_refocus_frt_preview.so \
-    vendor/realme/RMX2170/proprietary/odm/lib64/libarcsoft_dualcam_refocus_frt_uw.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_dualcam_refocus_frt_uw.so \
-    vendor/realme/RMX2170/proprietary/odm/lib64/libarcsoft_dualcam_refocus_left.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_dualcam_refocus_left.so \
-    vendor/realme/RMX2170/proprietary/odm/lib64/libarcsoft_dualcam_refocus_preview.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_dualcam_refocus_preview.so \
-    vendor/realme/RMX2170/proprietary/odm/lib64/libarcsoft_dualcam_refocus_right.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_dualcam_refocus_right.so \
-    vendor/realme/RMX2170/proprietary/odm/lib64/libarcsoft_dualcam_refocus_uw.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_dualcam_refocus_uw.so \
     vendor/realme/RMX2170/proprietary/odm/lib64/libarcsoft_frc.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_frc.so \
     vendor/realme/RMX2170/proprietary/odm/lib64/libarcsoft_hdr_couple_api.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_hdr_couple_api.so \
     vendor/realme/RMX2170/proprietary/odm/lib64/libarcsoft_hdr_denoise_api.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_hdr_denoise_api.so \
     vendor/realme/RMX2170/proprietary/odm/lib64/libarcsoft_hdrplus_hvx_stub.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_hdrplus_hvx_stub.so \
-    vendor/realme/RMX2170/proprietary/odm/lib64/libarcsoft_high_dynamic_range.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_high_dynamic_range.so \
-    vendor/realme/RMX2170/proprietary/odm/lib64/libarcsoft_high_dynamic_range_couple.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_high_dynamic_range_couple.so \
     vendor/realme/RMX2170/proprietary/odm/lib64/libarcsoft_lensstaindetection.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_lensstaindetection.so \
-    vendor/realme/RMX2170/proprietary/odm/lib64/libarcsoft_low_light_hdr.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_low_light_hdr.so \
     vendor/realme/RMX2170/proprietary/odm/lib64/libarcsoft_portraitSN_hvx_stub.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_portraitSN_hvx_stub.so \
-    vendor/realme/RMX2170/proprietary/odm/lib64/libarcsoft_portrait_super_night_raw.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_portrait_super_night_raw.so \
     vendor/realme/RMX2170/proprietary/odm/lib64/libarcsoft_scbokeh_image.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_scbokeh_image.so \
     vendor/realme/RMX2170/proprietary/odm/lib64/libarcsoft_scbokeh_video.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_scbokeh_video.so \
     vendor/realme/RMX2170/proprietary/odm/lib64/libarcsoft_smart_denoise.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_smart_denoise.so \
-    vendor/realme/RMX2170/proprietary/odm/lib64/libarcsoft_super_night_raw.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_super_night_raw.so \
     vendor/realme/RMX2170/proprietary/odm/lib64/libaudioEngineerTest.so:$(TARGET_COPY_OUT_ODM)/lib64/libaudioEngineerTest.so \
     vendor/realme/RMX2170/proprietary/odm/lib64/libbsproxy.so:$(TARGET_COPY_OUT_ODM)/lib64/libbsproxy.so \
     vendor/realme/RMX2170/proprietary/odm/lib64/libc++_shared.so:$(TARGET_COPY_OUT_ODM)/lib64/libc++_shared.so \
@@ -270,8 +202,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2170/proprietary/odm/lib64/libhyperlapse.so:$(TARGET_COPY_OUT_ODM)/lib64/libhyperlapse.so \
     vendor/realme/RMX2170/proprietary/odm/lib64/liblvimfs.so:$(TARGET_COPY_OUT_ODM)/lib64/liblvimfs.so \
     vendor/realme/RMX2170/proprietary/odm/lib64/liblvimfs_wrapper.so:$(TARGET_COPY_OUT_ODM)/lib64/liblvimfs_wrapper.so \
-    vendor/realme/RMX2170/proprietary/odm/lib64/libmegface.so:$(TARGET_COPY_OUT_ODM)/lib64/libmegface.so \
-    vendor/realme/RMX2170/proprietary/odm/lib64/libmegvii_superiq.so:$(TARGET_COPY_OUT_ODM)/lib64/libmegvii_superiq.so \
     vendor/realme/RMX2170/proprietary/odm/lib64/libml_util.so:$(TARGET_COPY_OUT_ODM)/lib64/libml_util.so \
     vendor/realme/RMX2170/proprietary/odm/lib64/libmpbase.so:$(TARGET_COPY_OUT_ODM)/lib64/libmpbase.so \
     vendor/realme/RMX2170/proprietary/odm/lib64/libormshalclient.so:$(TARGET_COPY_OUT_ODM)/lib64/libormshalclient.so \
@@ -298,7 +228,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2170/proprietary/odm/vendor/firmware/goodixfp.b06:$(TARGET_COPY_OUT_ODM)/vendor/firmware/goodixfp.b06 \
     vendor/realme/RMX2170/proprietary/odm/vendor/firmware/goodixfp.b07:$(TARGET_COPY_OUT_ODM)/vendor/firmware/goodixfp.b07 \
     vendor/realme/RMX2170/proprietary/odm/vendor/firmware/goodixfp.mdt:$(TARGET_COPY_OUT_ODM)/vendor/firmware/goodixfp.mdt \
-    vendor/realme/RMX2170/proprietary/odm/vendor/firmware/teemodel:$(TARGET_COPY_OUT_ODM)/vendor/firmware/teemodel \
     vendor/realme/RMX2170/proprietary/system_ext/lib/rfsa/adsp/libdsp_streamer_qvrcam_receiver.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/rfsa/adsp/libdsp_streamer_qvrcam_receiver.so \
     vendor/realme/RMX2170/proprietary/system_ext/lib/rfsa/adsp/libeye_tracking_dsp_sample_skel.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/rfsa/adsp/libeye_tracking_dsp_sample_skel.so \
     vendor/realme/RMX2170/proprietary/system_ext/lib/rfsa/adsp/libqvr_cam_dsp_driver_skel.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/rfsa/adsp/libqvr_cam_dsp_driver_skel.so \
