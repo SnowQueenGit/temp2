@@ -6,32 +6,20 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/realme/sdm710-common
 
 PRODUCT_COPY_FILES += \
+    vendor/realme/sdm710-common/proprietary/etc/permissions/com.motorola.dolby.dolbyui.features.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.motorola.dolby.dolbyui.features.xml \
+    vendor/realme/sdm710-common/proprietary/etc/sysconfig/hiddenapi-whitelist-com.motorola.dolby.dolbyui.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/hiddenapi-whitelist-com.motorola.dolby.dolbyui.xml \
     vendor/realme/sdm710-common/proprietary/framework/tcmclient.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/tcmclient.jar \
     vendor/realme/sdm710-common/proprietary/odm/bin/hw/android.hardware.drm@1.3-service.widevine:$(TARGET_COPY_OUT_ODM)/bin/hw/android.hardware.drm@1.3-service.widevine \
-    vendor/realme/sdm710-common/proprietary/odm/bin/hw/vendor.dolby_v351.hardware.dms@1.0-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.dolby_v351.hardware.dms@1.0-service \
-    vendor/realme/sdm710-common/proprietary/odm/etc/dolby/multimedia_dolby_dax_default.xml:$(TARGET_COPY_OUT_ODM)/etc/dolby/multimedia_dolby_dax_default.xml \
     vendor/realme/sdm710-common/proprietary/odm/etc/init/android.hardware.drm@1.3-service.widevine.rc:$(TARGET_COPY_OUT_ODM)/etc/init/android.hardware.drm@1.3-service.widevine.rc \
-    vendor/realme/sdm710-common/proprietary/odm/etc/init/vendor.dolby_v351.hardware.dms@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.dolby_v351.hardware.dms@1.0-service.rc \
     vendor/realme/sdm710-common/proprietary/odm/etc/sensor/sensor_config.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/sensor_config.json \
     vendor/realme/sdm710-common/proprietary/odm/firmware/ufs/MICRON-MT064GASAO2U21.bin:$(TARGET_COPY_OUT_ODM)/firmware/ufs/MICRON-MT064GASAO2U21.bin \
     vendor/realme/sdm710-common/proprietary/odm/firmware/ufs/SKhynix-H9HQ15AECMBDAR.bin:$(TARGET_COPY_OUT_ODM)/firmware/ufs/SKhynix-H9HQ15AECMBDAR.bin \
     vendor/realme/sdm710-common/proprietary/odm/firmware/ufs/SKhynix-H9HQ21AFAMADAR.bin:$(TARGET_COPY_OUT_ODM)/firmware/ufs/SKhynix-H9HQ21AFAMADAR.bin \
     vendor/realme/sdm710-common/proprietary/odm/firmware/ufs/move_target_ufs_fw_to_opporeserve1.sh:$(TARGET_COPY_OUT_ODM)/firmware/ufs/move_target_ufs_fw_to_opporeserve1.sh \
-    vendor/realme/sdm710-common/proprietary/odm/lib/libdapparamstorage_v351.so:$(TARGET_COPY_OUT_ODM)/lib/libdapparamstorage_v351.so \
-    vendor/realme/sdm710-common/proprietary/odm/lib/libdlbdsservice_v351.so:$(TARGET_COPY_OUT_ODM)/lib/libdlbdsservice_v351.so \
-    vendor/realme/sdm710-common/proprietary/odm/lib/libstagefright_soft_ac4dec_v351.so:$(TARGET_COPY_OUT_ODM)/lib/libstagefright_soft_ac4dec_v351.so \
-    vendor/realme/sdm710-common/proprietary/odm/lib/libstagefright_soft_ddpdec_v351.so:$(TARGET_COPY_OUT_ODM)/lib/libstagefright_soft_ddpdec_v351.so \
-    vendor/realme/sdm710-common/proprietary/odm/lib/libstagefrightdolby_v351.so:$(TARGET_COPY_OUT_ODM)/lib/libstagefrightdolby_v351.so \
     vendor/realme/sdm710-common/proprietary/odm/lib/libwvhidl.so:$(TARGET_COPY_OUT_ODM)/lib/libwvhidl.so \
     vendor/realme/sdm710-common/proprietary/odm/lib/soundfx/libswdap_v351.so:$(TARGET_COPY_OUT_ODM)/lib/soundfx/libswdap_v351.so \
-    vendor/realme/sdm710-common/proprietary/odm/lib/vendor.dolby_v351.hardware.dms@1.0-impl.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.dolby_v351.hardware.dms@1.0-impl.so \
-    vendor/realme/sdm710-common/proprietary/odm/lib/vendor.dolby_v351.hardware.dms@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.dolby_v351.hardware.dms@1.0.so \
-    vendor/realme/sdm710-common/proprietary/odm/lib64/libdapparamstorage_v351.so:$(TARGET_COPY_OUT_ODM)/lib64/libdapparamstorage_v351.so \
-    vendor/realme/sdm710-common/proprietary/odm/lib64/libdlbdsservice_v351.so:$(TARGET_COPY_OUT_ODM)/lib64/libdlbdsservice_v351.so \
     vendor/realme/sdm710-common/proprietary/odm/lib64/libwvhidl.so:$(TARGET_COPY_OUT_ODM)/lib64/libwvhidl.so \
     vendor/realme/sdm710-common/proprietary/odm/lib64/soundfx/libswdap_v351.so:$(TARGET_COPY_OUT_ODM)/lib64/soundfx/libswdap_v351.so \
-    vendor/realme/sdm710-common/proprietary/odm/lib64/vendor.dolby_v351.hardware.dms@1.0-impl.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.dolby_v351.hardware.dms@1.0-impl.so \
-    vendor/realme/sdm710-common/proprietary/odm/lib64/vendor.dolby_v351.hardware.dms@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.dolby_v351.hardware.dms@1.0.so \
     vendor/realme/sdm710-common/proprietary/odm/lib64/vendor.oplus.hardware.appradio@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.appradio@1.0.so \
     vendor/realme/sdm710-common/proprietary/odm/lib64/vendor.oplus.hardware.ims@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.ims@1.0.so \
     vendor/realme/sdm710-common/proprietary/odm/lib64/vendor.oplus.hardware.radio@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.radio@1.0.so \
@@ -71,6 +59,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sdm710-common/proprietary/odm/vendor/firmware/widevine.b06:$(TARGET_COPY_OUT_ODM)/vendor/firmware/widevine.b06 \
     vendor/realme/sdm710-common/proprietary/odm/vendor/firmware/widevine.b07:$(TARGET_COPY_OUT_ODM)/vendor/firmware/widevine.b07 \
     vendor/realme/sdm710-common/proprietary/odm/vendor/firmware/widevine.mdt:$(TARGET_COPY_OUT_ODM)/vendor/firmware/widevine.mdt \
+    vendor/realme/sdm710-common/proprietary/product/etc/permissions/com.dolby.daxservice.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.dolby.daxservice.xml \
     vendor/realme/sdm710-common/proprietary/system_ext/bin/dpmd:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/dpmd \
     vendor/realme/sdm710-common/proprietary/system_ext/bin/perfservice:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/perfservice \
     vendor/realme/sdm710-common/proprietary/system_ext/bin/rtspclient:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/rtspclient \
@@ -264,6 +253,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sdm710-common/proprietary/vendor/bin/hw/android.hardware.neuralnetworks@1.3-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.neuralnetworks@1.3-service-qti \
     vendor/realme/sdm710-common/proprietary/vendor/bin/hw/qcrild:$(TARGET_COPY_OUT_VENDOR)/bin/hw/qcrild \
     vendor/realme/sdm710-common/proprietary/vendor/bin/hw/vendor.display.color@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.display.color@1.0-service \
+    vendor/realme/sdm710-common/proprietary/vendor/bin/hw/vendor.dolby.hardware.dms@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.dolby.hardware.dms@1.0-service \
     vendor/realme/sdm710-common/proprietary/vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.alarm@1.0-service \
     vendor/realme/sdm710-common/proprietary/vendor/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service \
     vendor/realme/sdm710-common/proprietary/vendor/bin/hw/vendor.qti.hardware.perf@2.2-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.perf@2.2-service \
@@ -373,6 +363,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sdm710-common/proprietary/vendor/etc/data/dsi_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/dsi_config.xml \
     vendor/realme/sdm710-common/proprietary/vendor/etc/data/netmgr_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/netmgr_config.xml \
     vendor/realme/sdm710-common/proprietary/vendor/etc/default-permissions/com.qualcomm.qti.cne.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default-permissions/com.qualcomm.qti.cne.xml \
+    vendor/realme/sdm710-common/proprietary/vendor/etc/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml \
     vendor/realme/sdm710-common/proprietary/vendor/etc/gnss_antenna_info.conf:$(TARGET_COPY_OUT_VENDOR)/etc/gnss_antenna_info.conf \
     vendor/realme/sdm710-common/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
     vendor/realme/sdm710-common/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.wfdhdcp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.1-service.wfdhdcp.rc \
@@ -400,6 +391,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sdm710-common/proprietary/vendor/etc/init/qcrild.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qcrild.rc \
     vendor/realme/sdm710-common/proprietary/vendor/etc/init/qseecomd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qseecomd.rc \
     vendor/realme/sdm710-common/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.display.color@1.0-service.rc \
+    vendor/realme/sdm710-common/proprietary/vendor/etc/init/vendor.dolby.hardware.dms@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.dolby.hardware.dms@1.0-service.rc \
     vendor/realme/sdm710-common/proprietary/vendor/etc/init/vendor.qti.cdsprpc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.cdsprpc-service.rc \
     vendor/realme/sdm710-common/proprietary/vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.alarm@1.0-service.rc \
     vendor/realme/sdm710-common/proprietary/vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc \
@@ -412,6 +404,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sdm710-common/proprietary/vendor/etc/init/vendor.sensors.qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.qti.rc \
     vendor/realme/sdm710-common/proprietary/vendor/etc/init/vppservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vppservice.rc \
     vendor/realme/sdm710-common/proprietary/vendor/etc/init/wfdvndservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wfdvndservice.rc \
+    vendor/realme/sdm710-common/proprietary/vendor/etc/media_codecs_dolby_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_dolby_audio.xml \
     vendor/realme/sdm710-common/proprietary/vendor/etc/perf/commonresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/commonresourceconfigs.xml \
     vendor/realme/sdm710-common/proprietary/vendor/etc/perf/perfboostsconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfboostsconfig.xml \
     vendor/realme/sdm710-common/proprietary/vendor/etc/perf/perfconfigstore.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfconfigstore.xml \
@@ -591,6 +584,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sdm710-common/proprietary/vendor/lib/libcneqmiutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcneqmiutils.so \
     vendor/realme/sdm710-common/proprietary/vendor/lib/libconfigdb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libconfigdb.so \
     vendor/realme/sdm710-common/proprietary/vendor/lib/libcppf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcppf.so \
+    vendor/realme/sdm710-common/proprietary/vendor/lib/libdapparamstorage.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdapparamstorage.so \
     vendor/realme/sdm710-common/proprietary/vendor/lib/libdiag.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdiag.so \
     vendor/realme/sdm710-common/proprietary/vendor/lib/libdisp-aba.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdisp-aba.so \
     vendor/realme/sdm710-common/proprietary/vendor/lib/libdisplayqos.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdisplayqos.so \
@@ -695,6 +689,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sdm710-common/proprietary/vendor/lib/libssc_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libssc_default_listener.so \
     vendor/realme/sdm710-common/proprietary/vendor/lib/libssd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libssd.so \
     vendor/realme/sdm710-common/proprietary/vendor/lib/libssrec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libssrec.so \
+    vendor/realme/sdm710-common/proprietary/vendor/lib/libstagefrightdolby.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefrightdolby.so \
     vendor/realme/sdm710-common/proprietary/vendor/lib/libsurround_3mic_proc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsurround_3mic_proc.so \
     vendor/realme/sdm710-common/proprietary/vendor/lib/libswvdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libswvdec.so \
     vendor/realme/sdm710-common/proprietary/vendor/lib/libsystem_health_mon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsystem_health_mon.so \
@@ -740,6 +735,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sdm710-common/proprietary/vendor/lib/soundfx/libqcreverb.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcreverb.so \
     vendor/realme/sdm710-common/proprietary/vendor/lib/soundfx/libqcvirt.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcvirt.so \
     vendor/realme/sdm710-common/proprietary/vendor/lib/soundfx/libshoebox.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libshoebox.so \
+    vendor/realme/sdm710-common/proprietary/vendor/lib/soundfx/libswdap.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libswdap.so \
     vendor/realme/sdm710-common/proprietary/vendor/lib/vendor.display.color@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.color@1.0.so \
     vendor/realme/sdm710-common/proprietary/vendor/lib/vendor.display.color@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.color@1.1.so \
     vendor/realme/sdm710-common/proprietary/vendor/lib/vendor.display.color@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.color@1.2.so \
@@ -747,6 +743,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sdm710-common/proprietary/vendor/lib/vendor.display.color@1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.color@1.4.so \
     vendor/realme/sdm710-common/proprietary/vendor/lib/vendor.display.color@1.5.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.color@1.5.so \
     vendor/realme/sdm710-common/proprietary/vendor/lib/vendor.display.postproc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.postproc@1.0.so \
+    vendor/realme/sdm710-common/proprietary/vendor/lib/vendor.dolby.hardware.dms@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.dolby.hardware.dms@1.0.so \
     vendor/realme/sdm710-common/proprietary/vendor/lib/vendor.qti.data.factory@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.data.factory@2.0.so \
     vendor/realme/sdm710-common/proprietary/vendor/lib/vendor.qti.data.factory@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.data.factory@2.1.so \
     vendor/realme/sdm710-common/proprietary/vendor/lib/vendor.qti.data.factory@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.data.factory@2.2.so \
@@ -918,11 +915,13 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sdm710-common/proprietary/vendor/lib64/libcneqmiutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcneqmiutils.so \
     vendor/realme/sdm710-common/proprietary/vendor/lib64/libconfigdb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libconfigdb.so \
     vendor/realme/sdm710-common/proprietary/vendor/lib64/libcpion.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcpion.so \
+    vendor/realme/sdm710-common/proprietary/vendor/lib64/libdapparamstorage.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdapparamstorage.so \
     vendor/realme/sdm710-common/proprietary/vendor/lib64/libdataitems.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdataitems.so \
     vendor/realme/sdm710-common/proprietary/vendor/lib64/libdiag.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdiag.so \
     vendor/realme/sdm710-common/proprietary/vendor/lib64/libdiagjni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdiagjni.so \
     vendor/realme/sdm710-common/proprietary/vendor/lib64/libdisp-aba.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdisp-aba.so \
     vendor/realme/sdm710-common/proprietary/vendor/lib64/libdisplayqos.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdisplayqos.so \
+    vendor/realme/sdm710-common/proprietary/vendor/lib64/libdlbdsservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdlbdsservice.so \
     vendor/realme/sdm710-common/proprietary/vendor/lib64/libdpmqmihal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdpmqmihal.so \
     vendor/realme/sdm710-common/proprietary/vendor/lib64/libdrmfs.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdrmfs.so \
     vendor/realme/sdm710-common/proprietary/vendor/lib64/libdrmtime.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdrmtime.so \
@@ -1067,6 +1066,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sdm710-common/proprietary/vendor/lib64/soundfx/libqcreverb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libqcreverb.so \
     vendor/realme/sdm710-common/proprietary/vendor/lib64/soundfx/libqcvirt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libqcvirt.so \
     vendor/realme/sdm710-common/proprietary/vendor/lib64/soundfx/libshoebox.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libshoebox.so \
+    vendor/realme/sdm710-common/proprietary/vendor/lib64/soundfx/libswdap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libswdap.so \
     vendor/realme/sdm710-common/proprietary/vendor/lib64/unnhal-acc-adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/unnhal-acc-adreno.so \
     vendor/realme/sdm710-common/proprietary/vendor/lib64/unnhal-acc-common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/unnhal-acc-common.so \
     vendor/realme/sdm710-common/proprietary/vendor/lib64/unnhal-acc-hvx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/unnhal-acc-hvx.so \
@@ -1077,6 +1077,8 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sdm710-common/proprietary/vendor/lib64/vendor.display.color@1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.4.so \
     vendor/realme/sdm710-common/proprietary/vendor/lib64/vendor.display.color@1.5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.5.so \
     vendor/realme/sdm710-common/proprietary/vendor/lib64/vendor.display.postproc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.postproc@1.0.so \
+    vendor/realme/sdm710-common/proprietary/vendor/lib64/vendor.dolby.hardware.dms@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.dolby.hardware.dms@1.0-impl.so \
+    vendor/realme/sdm710-common/proprietary/vendor/lib64/vendor.dolby.hardware.dms@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.dolby.hardware.dms@1.0.so \
     vendor/realme/sdm710-common/proprietary/vendor/lib64/vendor.qti.data.factory@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.data.factory@2.0.so \
     vendor/realme/sdm710-common/proprietary/vendor/lib64/vendor.qti.data.factory@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.data.factory@2.1.so \
     vendor/realme/sdm710-common/proprietary/vendor/lib64/vendor.qti.data.factory@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.data.factory@2.2.so \
@@ -1172,10 +1174,12 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.fm@1.0 \
     libqct_resampler \
+    MotoDolbyV3 \
     CneApp \
     IWlanService \
     TimeService \
     PowerOffAlarm \
+    daxService \
     QtiTelephonyService \
     uceShimService \
     WfdService \
@@ -1188,6 +1192,6 @@ PRODUCT_PACKAGES += \
     qcrilhook \
     android.hardware.gnss@2.1-service-qti \
     android.hardware.neuralnetworks@1.3-service-qti \
+    manifest_dax_dolby \
     vendor.qti.gnss@4.0-service \
-    manifest_android.hardware.drm@1.3-service.widevine \
-    manifest_dax_dolby
+    manifest_android.hardware.drm@1.3-service.widevine
