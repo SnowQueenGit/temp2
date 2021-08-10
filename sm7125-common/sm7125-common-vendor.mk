@@ -11,22 +11,59 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sm7125-common/proprietary/etc/sysconfig/hiddenapi-whitelist-com.motorola.dolby.dolbyui.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/hiddenapi-whitelist-com.motorola.dolby.dolbyui.xml \
     vendor/realme/sm7125-common/proprietary/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
     vendor/realme/sm7125-common/proprietary/odm/bin/hw/android.hardware.drm@1.3-service.widevine:$(TARGET_COPY_OUT_ODM)/bin/hw/android.hardware.drm@1.3-service.widevine \
+    vendor/realme/sm7125-common/proprietary/odm/bin/opnscr:$(TARGET_COPY_OUT_ODM)/bin/opnscr \
     vendor/realme/sm7125-common/proprietary/odm/etc/gps.conf:$(TARGET_COPY_OUT_ODM)/etc/gps.conf \
     vendor/realme/sm7125-common/proprietary/odm/etc/init/android.hardware.drm@1.3-service.widevine.rc:$(TARGET_COPY_OUT_ODM)/etc/init/android.hardware.drm@1.3-service.widevine.rc \
+    vendor/realme/sm7125-common/proprietary/odm/etc/init/init.SN100x.nfc.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.SN100x.nfc.rc \
     vendor/realme/sm7125-common/proprietary/odm/etc/init/init.network.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.network.rc \
     vendor/realme/sm7125-common/proprietary/odm/etc/init/init.oppo.reserve.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.oppo.reserve.rc \
     vendor/realme/sm7125-common/proprietary/odm/etc/izat.conf:$(TARGET_COPY_OUT_ODM)/etc/izat.conf \
+    vendor/realme/sm7125-common/proprietary/odm/etc/libnfc-nxp-pnscr.conf:$(TARGET_COPY_OUT_ODM)/etc/libnfc-nxp-pnscr.conf \
+    vendor/realme/sm7125-common/proprietary/odm/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_ODM)/etc/libnfc-nxp.conf \
+    vendor/realme/sm7125-common/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
+    vendor/realme/sm7125-common/proprietary/odm/etc/nfc/cxd225x_firmware.bin_cxd225x:$(TARGET_COPY_OUT_ODM)/etc/nfc/cxd225x_firmware.bin_cxd225x \
+    vendor/realme/sm7125-common/proprietary/odm/etc/nfc/libnfc-mtp-SN100.conf_206B3:$(TARGET_COPY_OUT_ODM)/etc/nfc/libnfc-mtp-SN100.conf_206B3 \
+    vendor/realme/sm7125-common/proprietary/odm/etc/nfc/libnfc-nci.conf_206B3:$(TARGET_COPY_OUT_ODM)/etc/nfc/libnfc-nci.conf_206B3 \
+    vendor/realme/sm7125-common/proprietary/odm/etc/nfc/nfc_chipset_ref:$(TARGET_COPY_OUT_ODM)/etc/nfc/nfc_chipset_ref \
+    vendor/realme/sm7125-common/proprietary/odm/etc/nfc/nfc_conf_ref:$(TARGET_COPY_OUT_ODM)/etc/nfc/nfc_conf_ref \
+    vendor/realme/sm7125-common/proprietary/odm/etc/nfc/nfc_fw_ref:$(TARGET_COPY_OUT_ODM)/etc/nfc/nfc_fw_ref \
+    vendor/realme/sm7125-common/proprietary/odm/etc/nfc/sn100u.bin_sn100t_fw_01_10_53:$(TARGET_COPY_OUT_ODM)/etc/nfc/sn100u.bin_sn100t_fw_01_10_53 \
+    vendor/realme/sm7125-common/proprietary/odm/etc/nfc/sn100u.bin_sn100t_fw_01_10_57:$(TARGET_COPY_OUT_ODM)/etc/nfc/sn100u.bin_sn100t_fw_01_10_57 \
+    vendor/realme/sm7125-common/proprietary/odm/etc/nfc/st21nfc_fw.bin_st21h:$(TARGET_COPY_OUT_ODM)/etc/nfc/st21nfc_fw.bin_st21h \
+    vendor/realme/sm7125-common/proprietary/odm/etc/nfc/st21nfc_fw7.bin_st21h:$(TARGET_COPY_OUT_ODM)/etc/nfc/st21nfc_fw7.bin_st21h \
     vendor/realme/sm7125-common/proprietary/odm/etc/sap.conf:$(TARGET_COPY_OUT_ODM)/etc/sap.conf \
     vendor/realme/sm7125-common/proprietary/odm/etc/sensor/sensor_config.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/sensor_config.json \
+    vendor/realme/sm7125-common/proprietary/odm/etc/sn100u_bootup.pnscr:$(TARGET_COPY_OUT_ODM)/etc/sn100u_bootup.pnscr \
+    vendor/realme/sm7125-common/proprietary/odm/etc/sn100u_ese_disableIso.pnscr:$(TARGET_COPY_OUT_ODM)/etc/sn100u_ese_disableIso.pnscr \
+    vendor/realme/sm7125-common/proprietary/odm/etc/sn100u_ese_disableIsoRead.pnscr:$(TARGET_COPY_OUT_ODM)/etc/sn100u_ese_disableIsoRead.pnscr \
+    vendor/realme/sm7125-common/proprietary/odm/etc/sn100u_nfcon.pnscr:$(TARGET_COPY_OUT_ODM)/etc/sn100u_nfcon.pnscr \
+    vendor/realme/sm7125-common/proprietary/odm/etc/sn100u_pnx_chr.pnscr:$(TARGET_COPY_OUT_ODM)/etc/sn100u_pnx_chr.pnscr \
+    vendor/realme/sm7125-common/proprietary/odm/etc/sn100u_pnx_cui.pnscr:$(TARGET_COPY_OUT_ODM)/etc/sn100u_pnx_cui.pnscr \
+    vendor/realme/sm7125-common/proprietary/odm/etc/sn100u_pnx_ese_3.pnscr:$(TARGET_COPY_OUT_ODM)/etc/sn100u_pnx_ese_3.pnscr \
+    vendor/realme/sm7125-common/proprietary/odm/etc/sn100u_pnx_ese_aclog.pnscr:$(TARGET_COPY_OUT_ODM)/etc/sn100u_pnx_ese_aclog.pnscr \
+    vendor/realme/sm7125-common/proprietary/odm/etc/sn100u_pnx_ese_cplc.pnscr:$(TARGET_COPY_OUT_ODM)/etc/sn100u_pnx_ese_cplc.pnscr \
+    vendor/realme/sm7125-common/proprietary/odm/etc/sn100u_pnx_ese_fabkey.pnscr:$(TARGET_COPY_OUT_ODM)/etc/sn100u_pnx_ese_fabkey.pnscr \
+    vendor/realme/sm7125-common/proprietary/odm/etc/sn100u_pnx_ese_free.pnscr:$(TARGET_COPY_OUT_ODM)/etc/sn100u_pnx_ese_free.pnscr \
+    vendor/realme/sm7125-common/proprietary/odm/etc/sn100u_pnx_ese_keyset.pnscr:$(TARGET_COPY_OUT_ODM)/etc/sn100u_pnx_ese_keyset.pnscr \
+    vendor/realme/sm7125-common/proprietary/odm/etc/sn100u_pnx_ese_sn.pnscr:$(TARGET_COPY_OUT_ODM)/etc/sn100u_pnx_ese_sn.pnscr \
+    vendor/realme/sm7125-common/proprietary/odm/etc/sn100u_pnx_ndi.pnscr:$(TARGET_COPY_OUT_ODM)/etc/sn100u_pnx_ndi.pnscr \
+    vendor/realme/sm7125-common/proprietary/odm/etc/sn100u_pnx_pcv.pnscr:$(TARGET_COPY_OUT_ODM)/etc/sn100u_pnx_pcv.pnscr \
+    vendor/realme/sm7125-common/proprietary/odm/etc/sn100u_pnx_spc.pnscr:$(TARGET_COPY_OUT_ODM)/etc/sn100u_pnx_spc.pnscr \
+    vendor/realme/sm7125-common/proprietary/odm/etc/sn100u_pnx_sst.pnscr:$(TARGET_COPY_OUT_ODM)/etc/sn100u_pnx_sst.pnscr \
     vendor/realme/sm7125-common/proprietary/odm/lib/hw/vendor.oplus.hardware.bluetooth_audio@1.0-impl.so:$(TARGET_COPY_OUT_ODM)/lib/hw/vendor.oplus.hardware.bluetooth_audio@1.0-impl.so \
     vendor/realme/sm7125-common/proprietary/odm/lib/liboemcrypto.so:$(TARGET_COPY_OUT_ODM)/lib/liboemcrypto.so \
+    vendor/realme/sm7125-common/proprietary/odm/lib/libpn553_fw.so:$(TARGET_COPY_OUT_ODM)/lib/libpn553_fw.so \
+    vendor/realme/sm7125-common/proprietary/odm/lib/libpn557_fw.so:$(TARGET_COPY_OUT_ODM)/lib/libpn557_fw.so \
+    vendor/realme/sm7125-common/proprietary/odm/lib/libpnscr2.so:$(TARGET_COPY_OUT_ODM)/lib/libpnscr2.so \
     vendor/realme/sm7125-common/proprietary/odm/lib/libqsee_keybox_ca.so:$(TARGET_COPY_OUT_ODM)/lib/libqsee_keybox_ca.so \
     vendor/realme/sm7125-common/proprietary/odm/lib/libqtigef.so:$(TARGET_COPY_OUT_ODM)/lib/libqtigef.so \
+    vendor/realme/sm7125-common/proprietary/odm/lib/libsn100u_fw.so:$(TARGET_COPY_OUT_ODM)/lib/libsn100u_fw.so \
     vendor/realme/sm7125-common/proprietary/odm/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_ODM)/lib/mediadrm/libwvdrmengine.so \
     vendor/realme/sm7125-common/proprietary/odm/lib/oplus_btaudio_offload_if.so:$(TARGET_COPY_OUT_ODM)/lib/oplus_btaudio_offload_if.so \
     vendor/realme/sm7125-common/proprietary/odm/lib/vendor.oplus.hardware.bluetooth_audio@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.bluetooth_audio@1.0.so \
     vendor/realme/sm7125-common/proprietary/odm/lib64/hw/vendor.oplus.hardware.bluetooth_audio@1.0-impl.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/vendor.oplus.hardware.bluetooth_audio@1.0-impl.so \
     vendor/realme/sm7125-common/proprietary/odm/lib64/liboemcrypto.so:$(TARGET_COPY_OUT_ODM)/lib64/liboemcrypto.so \
+    vendor/realme/sm7125-common/proprietary/odm/lib64/libpnscr2.so:$(TARGET_COPY_OUT_ODM)/lib64/libpnscr2.so \
     vendor/realme/sm7125-common/proprietary/odm/lib64/libqsee_keybox_ca.so:$(TARGET_COPY_OUT_ODM)/lib64/libqsee_keybox_ca.so \
     vendor/realme/sm7125-common/proprietary/odm/lib64/libqtigef.so:$(TARGET_COPY_OUT_ODM)/lib64/libqtigef.so \
     vendor/realme/sm7125-common/proprietary/odm/lib64/libwvhidl.so:$(TARGET_COPY_OUT_ODM)/lib64/libwvhidl.so \
@@ -323,6 +360,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sm7125-common/proprietary/vendor/etc/init/vendor.sensors.sscrpcd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.sscrpcd.rc \
     vendor/realme/sm7125-common/proprietary/vendor/etc/init/wfdvndservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wfdvndservice.rc \
     vendor/realme/sm7125-common/proprietary/vendor/etc/izat.conf:$(TARGET_COPY_OUT_VENDOR)/etc/izat.conf \
+    vendor/realme/sm7125-common/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
     vendor/realme/sm7125-common/proprietary/vendor/etc/lm/AdaptLaunchFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/AdaptLaunchFeature.xml \
     vendor/realme/sm7125-common/proprietary/vendor/etc/lm/AppClassifierFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/AppClassifierFeature.xml \
     vendor/realme/sm7125-common/proprietary/vendor/etc/lm/GameOptimizationFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/GameOptimizationFeature.xml \
