@@ -17,9 +17,9 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sm7125-common/proprietary/odm/etc/init/init.network.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.network.rc \
     vendor/realme/sm7125-common/proprietary/odm/etc/init/init.oppo.reserve.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.oppo.reserve.rc \
     vendor/realme/sm7125-common/proprietary/odm/etc/izat.conf:$(TARGET_COPY_OUT_ODM)/etc/izat.conf \
-    vendor/realme/sm7125-common/proprietary/odm/etc/libnfc-nxp-pnscr.conf:$(TARGET_COPY_OUT_ODM)/etc/libnfc-nxp-pnscr.conf \
     vendor/realme/sm7125-common/proprietary/odm/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_ODM)/etc/libnfc-nxp.conf \
     vendor/realme/sm7125-common/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
+    vendor/realme/sm7125-common/proprietary/odm/etc/libnfc-nxp-pnscr.conf:$(TARGET_COPY_OUT_ODM)/etc/libnfc-nxp-pnscr.conf \
     vendor/realme/sm7125-common/proprietary/odm/etc/sap.conf:$(TARGET_COPY_OUT_ODM)/etc/sap.conf \
     vendor/realme/sm7125-common/proprietary/odm/etc/sensor/sensor_config.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/sensor_config.json \
     vendor/realme/sm7125-common/proprietary/odm/lib/hw/vendor.oplus.hardware.bluetooth_audio@1.0-impl.so:$(TARGET_COPY_OUT_ODM)/lib/hw/vendor.oplus.hardware.bluetooth_audio@1.0-impl.so \
@@ -417,7 +417,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sm7125-common/proprietary/vendor/etc/sensors/config/sns_wrist_pedo.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_wrist_pedo.json \
     vendor/realme/sm7125-common/proprietary/vendor/etc/sensors/config/stk2x2x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/stk2x2x_0.json \
     vendor/realme/sm7125-common/proprietary/vendor/etc/sensors/config/tcs3701.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/tcs3701.json \
-    vendor/realme/sm7125-common/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
     vendor/realme/sm7125-common/proprietary/vendor/etc/sensors/sns_reg_config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sns_reg_config \
     vendor/realme/sm7125-common/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
     vendor/realme/sm7125-common/proprietary/vendor/etc/wfdconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wfdconfig.xml \
@@ -758,52 +757,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sm7125-common/proprietary/vendor/lib/libwqe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwqe.so \
     vendor/realme/sm7125-common/proprietary/vendor/lib/libxml.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxml.so \
     vendor/realme/sm7125-common/proprietary/vendor/lib/libxtadapter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxtadapter.so \
-    vendor/realme/sm7125-common/proprietary/vendor/lib/modules/audio_adsp_loader.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_adsp_loader.ko \
-    vendor/realme/sm7125-common/proprietary/vendor/lib/modules/audio_apr.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_apr.ko \
-    vendor/realme/sm7125-common/proprietary/vendor/lib/modules/audio_aw882xx.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_aw882xx.ko \
-    vendor/realme/sm7125-common/proprietary/vendor/lib/modules/audio_bolero_cdc.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_bolero_cdc.ko \
-    vendor/realme/sm7125-common/proprietary/vendor/lib/modules/audio_extend.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_extend.ko \
-    vendor/realme/sm7125-common/proprietary/vendor/lib/modules/audio_hdmi.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_hdmi.ko \
-    vendor/realme/sm7125-common/proprietary/vendor/lib/modules/audio_machine_atoll.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_machine_atoll.ko \
-    vendor/realme/sm7125-common/proprietary/vendor/lib/modules/audio_mbhc.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_mbhc.ko \
-    vendor/realme/sm7125-common/proprietary/vendor/lib/modules/audio_native.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_native.ko \
-    vendor/realme/sm7125-common/proprietary/vendor/lib/modules/audio_pinctrl_lpi.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_pinctrl_lpi.ko \
-    vendor/realme/sm7125-common/proprietary/vendor/lib/modules/audio_platform.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_platform.ko \
-    vendor/realme/sm7125-common/proprietary/vendor/lib/modules/audio_q6.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_q6.ko \
-    vendor/realme/sm7125-common/proprietary/vendor/lib/modules/audio_q6_notifier.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_q6_notifier.ko \
-    vendor/realme/sm7125-common/proprietary/vendor/lib/modules/audio_q6_pdr.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_q6_pdr.ko \
-    vendor/realme/sm7125-common/proprietary/vendor/lib/modules/audio_rx_macro.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_rx_macro.ko \
-    vendor/realme/sm7125-common/proprietary/vendor/lib/modules/audio_sia81xx.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_sia81xx.ko \
-    vendor/realme/sm7125-common/proprietary/vendor/lib/modules/audio_snd_event.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_snd_event.ko \
-    vendor/realme/sm7125-common/proprietary/vendor/lib/modules/audio_stub.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_stub.ko \
-    vendor/realme/sm7125-common/proprietary/vendor/lib/modules/audio_swr.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_swr.ko \
-    vendor/realme/sm7125-common/proprietary/vendor/lib/modules/audio_swr_ctrl.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_swr_ctrl.ko \
-    vendor/realme/sm7125-common/proprietary/vendor/lib/modules/audio_tfa98xx-v6.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_tfa98xx-v6.ko \
-    vendor/realme/sm7125-common/proprietary/vendor/lib/modules/audio_tx_macro.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_tx_macro.ko \
-    vendor/realme/sm7125-common/proprietary/vendor/lib/modules/audio_usf.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_usf.ko \
-    vendor/realme/sm7125-common/proprietary/vendor/lib/modules/audio_va_macro.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_va_macro.ko \
-    vendor/realme/sm7125-common/proprietary/vendor/lib/modules/audio_wcd937x.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_wcd937x.ko \
-    vendor/realme/sm7125-common/proprietary/vendor/lib/modules/audio_wcd937x_slave.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_wcd937x_slave.ko \
-    vendor/realme/sm7125-common/proprietary/vendor/lib/modules/audio_wcd938x.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_wcd938x.ko \
-    vendor/realme/sm7125-common/proprietary/vendor/lib/modules/audio_wcd938x_slave.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_wcd938x_slave.ko \
-    vendor/realme/sm7125-common/proprietary/vendor/lib/modules/audio_wcd9xxx.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_wcd9xxx.ko \
-    vendor/realme/sm7125-common/proprietary/vendor/lib/modules/audio_wcd_core.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_wcd_core.ko \
-    vendor/realme/sm7125-common/proprietary/vendor/lib/modules/audio_wsa881x.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_wsa881x.ko \
-    vendor/realme/sm7125-common/proprietary/vendor/lib/modules/audio_wsa_macro.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_wsa_macro.ko \
-    vendor/realme/sm7125-common/proprietary/vendor/lib/modules/br_netfilter.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/br_netfilter.ko \
-    vendor/realme/sm7125-common/proprietary/vendor/lib/modules/gspca_main.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/gspca_main.ko \
-    vendor/realme/sm7125-common/proprietary/vendor/lib/modules/lcd.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/lcd.ko \
-    vendor/realme/sm7125-common/proprietary/vendor/lib/modules/llcc_perfmon.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/llcc_perfmon.ko \
-    vendor/realme/sm7125-common/proprietary/vendor/lib/modules/modules.alias:$(TARGET_COPY_OUT_VENDOR)/lib/modules/modules.alias \
-    vendor/realme/sm7125-common/proprietary/vendor/lib/modules/modules.dep:$(TARGET_COPY_OUT_VENDOR)/lib/modules/modules.dep \
-    vendor/realme/sm7125-common/proprietary/vendor/lib/modules/modules.load:$(TARGET_COPY_OUT_VENDOR)/lib/modules/modules.load \
-    vendor/realme/sm7125-common/proprietary/vendor/lib/modules/modules.softdep:$(TARGET_COPY_OUT_VENDOR)/lib/modules/modules.softdep \
-    vendor/realme/sm7125-common/proprietary/vendor/lib/modules/mpq-adapter.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/mpq-adapter.ko \
-    vendor/realme/sm7125-common/proprietary/vendor/lib/modules/mpq-dmx-hw-plugin.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/mpq-dmx-hw-plugin.ko \
-    vendor/realme/sm7125-common/proprietary/vendor/lib/modules/msm_11ad_proxy.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/msm_11ad_proxy.ko \
-    vendor/realme/sm7125-common/proprietary/vendor/lib/modules/qca_cld3_wlan.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/qca_cld3_wlan.ko \
-    vendor/realme/sm7125-common/proprietary/vendor/lib/modules/rdbg.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/rdbg.ko \
-    vendor/realme/sm7125-common/proprietary/vendor/lib/modules/wil6210.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/wil6210.ko \
     vendor/realme/sm7125-common/proprietary/vendor/lib/qcrild_librilutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/qcrild_librilutils.so \
     vendor/realme/sm7125-common/proprietary/vendor/lib/qtibus.so:$(TARGET_COPY_OUT_VENDOR)/lib/qtibus.so \
     vendor/realme/sm7125-common/proprietary/vendor/lib/qtimutex.so:$(TARGET_COPY_OUT_VENDOR)/lib/qtimutex.so \
