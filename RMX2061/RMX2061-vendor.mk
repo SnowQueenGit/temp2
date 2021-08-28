@@ -45,6 +45,10 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2061/proprietary/odm/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc \
     vendor/realme/RMX2061/proprietary/odm/etc/init/vendor.oplus.hardware.orms.ormsHalService@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.orms.ormsHalService@1.0-service.rc \
     vendor/realme/RMX2061/proprietary/odm/etc/orms/orms_permission_config.xml:$(TARGET_COPY_OUT_ODM)/etc/orms/orms_permission_config.xml \
+    vendor/realme/RMX2061/proprietary/odm/etc/boe_vdo_mode_nt36672c_eyeprotect_data.xml:$(TARGET_COPY_OUT_ODM)/etc/boe_vdo_mode_nt36672c_eyeprotect_data.xml \
+    vendor/realme/RMX2061/proprietary/odm/etc/boe_vdo_mode_nt36672c_srgb_eyeprotect_data.xml:$(TARGET_COPY_OUT_ODM)/etc/boe_vdo_mode_nt36672c_srgb_eyeprotect_data.xml \
+    vendor/realme/RMX2061/proprietary/odm/etc/jdi_vdo_mode_nt36672c_eyeprotect_data.xml:$(TARGET_COPY_OUT_ODM)/etc/jdi_vdo_mode_nt36672c_eyeprotect_data.xml \
+    vendor/realme/RMX2061/proprietary/odm/etc/jdi_vdo_mode_nt36672c_srgb_eyeprotect_data.xml:$(TARGET_COPY_OUT_ODM)/etc/jdi_vdo_mode_nt36672c_srgb_eyeprotect_data.xml \
     vendor/realme/RMX2061/proprietary/odm/etc/samsung1024_amb655uv01_eyeprotect_data.xml:$(TARGET_COPY_OUT_ODM)/etc/samsung1024_amb655uv01_eyeprotect_data.xml \
     vendor/realme/RMX2061/proprietary/odm/etc/samsung1024_amb655uv01_srgb_eyeprotect_data.xml:$(TARGET_COPY_OUT_ODM)/etc/samsung1024_amb655uv01_srgb_eyeprotect_data.xml \
     vendor/realme/RMX2061/proprietary/odm/etc/samsung1024_ams643xf01_eyeprotect_data.xml:$(TARGET_COPY_OUT_ODM)/etc/samsung1024_ams643xf01_eyeprotect_data.xml \
@@ -264,6 +268,8 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2061/proprietary/vendor/etc/ltm_config_samsung_AMS678UW01_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ltm_config_samsung_AMS678UW01_dsc_cmd_mode_panel.xml \
     vendor/realme/RMX2061/proprietary/vendor/etc/ltm_config_samsung_amb655uv01_amoled_fhd+_panel_with_DSC.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ltm_config_samsung_amb655uv01_amoled_fhd+_panel_with_DSC.xml \
     vendor/realme/RMX2061/proprietary/vendor/etc/qdcm_calib_data_boe_nt37800_amoled_fhd+_panel_with_DSC.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_boe_nt37800_amoled_fhd+_panel_with_DSC.xml \
+    vendor/realme/RMX2061/proprietary/vendor/etc/qdcm_calib_data_nt36672c_fhd_plus_video_mode_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_nt36672c_fhd_plus_video_mode_dsi_panel.xml \
+    vendor/realme/RMX2061/proprietary/vendor/etc/qdcm_calib_data_nt36672c_jdi_fhd_plus_video_mode_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_nt36672c_jdi_fhd_plus_video_mode_dsi_panel.xml \
     vendor/realme/RMX2061/proprietary/vendor/etc/qdcm_calib_data_samsung_20261_ams643ye01_amoled_fhd+_panel_without_DSC.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_samsung_20261_ams643ye01_amoled_fhd+_panel_without_DSC.xml \
     vendor/realme/RMX2061/proprietary/vendor/etc/qdcm_calib_data_samsung_AMS678UW01_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_samsung_AMS678UW01_dsc_cmd_mode_panel.xml \
     vendor/realme/RMX2061/proprietary/vendor/etc/qdcm_calib_data_samsung_amb655uv01_amoled_fhd+_panel_no_DSC.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_samsung_amb655uv01_amoled_fhd+_panel_no_DSC.xml \
