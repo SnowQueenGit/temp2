@@ -27,10 +27,6 @@ on boot
     chown system  system /sys/bus/platform/devices/egis_input/navigation_enable
     chown system  system /sys/bus/platform/devices/egis_input/navigation_event
 
-#for chipone 
-    chmod 660 /dev/fpsensor
-    chown system system /dev/fpsensor
-
 #for silead fp
     chown system system /dev/silead_fp
     chmod 0666 /dev/silead_fp

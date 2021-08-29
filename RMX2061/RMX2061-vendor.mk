@@ -264,7 +264,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2061/proprietary/vendor/bin/adsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/adsprpcd \
     vendor/realme/RMX2061/proprietary/vendor/bin/cdsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/cdsprpcd \
     vendor/realme/RMX2061/proprietary/vendor/etc/Oppo_QC_LTM_Commercial_SM8250_2020_01_15.pfm:$(TARGET_COPY_OUT_VENDOR)/etc/Oppo_QC_LTM_Commercial_SM8250_2020_01_15.pfm \
-    vendor/realme/RMX2061/proprietary/vendor/etc/camera/M_Attribute_AG_BMW_1.1.0.model.hardcode:$(TARGET_COPY_OUT_VENDOR)/etc/camera/M_Attribute_AG_BMW_1.1.0.model.hardcode \
+    vendor/realme/RMX2061/proprietary/vendor/etc/camera/M_Attribute_Gender_Age_1.0.model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/M_Attribute_Gender_Age_1.0.model \
     vendor/realme/RMX2061/proprietary/vendor/etc/init/vendor.qti.adsprpc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.adsprpc-service.rc \
     vendor/realme/RMX2061/proprietary/vendor/etc/init/vendor.qti.cdsprpc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.cdsprpc-service.rc \
     vendor/realme/RMX2061/proprietary/vendor/etc/ltm_config_samsung_AMS678UW01_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ltm_config_samsung_AMS678UW01_dsc_cmd_mode_panel.xml \
@@ -419,7 +419,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2061/proprietary/vendor/lib/modules/qca_cld3_wlan.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/qca_cld3_wlan.ko \
     vendor/realme/RMX2061/proprietary/vendor/lib/modules/rdbg.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/rdbg.ko \
     vendor/realme/RMX2061/proprietary/vendor/lib/modules/wil6210.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/wil6210.ko \
-    vendor/realme/RMX2061/proprietary/vendor/lib/oplus.sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib/oplus.sensors.ssc.so \
     vendor/realme/RMX2061/proprietary/vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDADV_Encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/capi_v2_aptX_CLHDADV_Encoder.so \
     vendor/realme/RMX2061/proprietary/vendor/lib/rfsa/adsp/libVC1Dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libVC1Dec.so \
     vendor/realme/RMX2061/proprietary/vendor/lib/rfsa/adsp/libVC1DecDsp_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libVC1DecDsp_skel.so \
@@ -526,7 +525,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2061/proprietary/vendor/lib64/libswregistrationalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libswregistrationalgo.so \
     vendor/realme/RMX2061/proprietary/vendor/lib64/libsysmon_cdsp_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsysmon_cdsp_skel.so \
     vendor/realme/RMX2061/proprietary/vendor/lib64/libtinycompress.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtinycompress.so \
-    vendor/realme/RMX2061/proprietary/vendor/lib64/oplus.sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/oplus.sensors.ssc.so \
     vendor/realme/RMX2061/proprietary/vendor/lib64/rfsa/adsp/libsns_device_mode_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/rfsa/adsp/libsns_device_mode_skel.so \
     vendor/realme/RMX2061/proprietary/vendor/lib64/rfsa/adsp/libsns_low_lat_stream_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/rfsa/adsp/libsns_low_lat_stream_skel.so \
     vendor/realme/RMX2061/proprietary/vendor/lib64/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.ssc.so \

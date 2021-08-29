@@ -115,7 +115,7 @@
               180 /*rotation*/, 1 /*focusRectValid*/, 1 /*refocusOn*/, 2 /*refocus_mode*/, 6 /*foregroundBlurScale*/, 12 /*curveVal*/, 400 /*farDistanceThres*/, 30 /*nearDistanceThres*/, 1500 /*lowLightTriggerIsoHigh*/, 1400 /*lowLightTriggerIsoLow*/,
                    1440 /*ispOutWidth*/, 1080 /*ispOutHeight*/, 0 /*c2sReSizeTypeMaster*/, 2 /*s2iReSizeTypeMaster*/, 1 /*c2sReSizeTypeSlave*/, 2 /*s2iReSizeTypeSlave*/,
                    4608 /*masterPictureWidth*/,3456 /*masterPictureHeight*/, 4608 /*slavePictureWidth*/, 3456 /*slavePictureHeight*/, 1 /*isTeleMaster*/,
-              210 /*luxThreshold*/, 0 /*dualCaliType*/, 42/*focusDistanceThresholdFallingFace*/, 45/*focusDistanceThresholdRisingFace*/, 100 /*blurSlope*/, 0 /*blurIntercept*/",
+              210 /*luxThreshold*/, 0 /*dualCaliType*/, 76/*focusDistanceThresholdFallingFace*/, 80/*focusDistanceThresholdRisingFace*/, 100 /*blurSlope*/, 0 /*blurIntercept*/",
   "Comment": "JsonParamsRtb: include rear and front"
 },
 

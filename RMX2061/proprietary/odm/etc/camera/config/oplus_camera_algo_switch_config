@@ -15,7 +15,7 @@
                     "aps_algo_raw_hdr" : 0,
                     "aps_algo_pf" : 1,
                     "aps_algo_filter" : 1,
-                    "aps_algo_fusion" : 0,
+                    "aps_algo_fusion" : 1,
                     "aps_algo_ai_night" : 0,
                     "aps_algo_rectify" : 1,
                     "aps_algo_supernight" : 0,
@@ -28,9 +28,9 @@
                     "aps_algo_video_blur" : 0,
                     "aps_algo_pf_v1" : 1,
                     "aps_algo_face_info" : 1,
-                    "aps_algo_super_text" : 0,
-                    "aps_algo_face_rectify" : 0,
-                    "aps_algo_dered_eye" : 0
+                    "aps_algo_super_text" : 1,
+                    "aps_algo_face_rectify" : 1,
+                    "aps_algo_dered_eye" : 1
                 },
                 {
                     "id" : 1,
@@ -55,7 +55,7 @@
                     "aps_algo_video_blur" : 0,
                     "aps_algo_pf_v1" : 0,
                     "aps_algo_face_info" : 1,
-                    "aps_algo_face_rectify" : 0
+                    "aps_algo_face_rectify" : 1
                 }
             ]
         },
@@ -75,7 +75,7 @@
                     "aps_algo_ai_night" : 1,
                     "aps_algo_rectify" : 1,
                     "aps_algo_supernight" : 1,
-                    "aps_algo_superphoto" : 0,
+                    "aps_algo_superphoto" : 1,
                     "aps_algo_watermark" : 1,
                     "aps_algo_face_beauty" : 0,
                     "aps_algo_rotate_mirror" : 1,
@@ -96,7 +96,7 @@
                     "aps_algo_pf" : 0,
                     "aps_algo_fusion" : 0,
                     "aps_algo_ai_night" : 0,
-                    "aps_algo_rectify" : 1,
+                    "aps_algo_rectify" : 0,
                     "aps_algo_supernight" : 0,
                     "aps_algo_superphoto" : 0,
                     "aps_algo_watermark" : 1,
@@ -194,7 +194,7 @@
                     "aps_algo_ai_night" : 0,
                     "aps_algo_rectify" : 1,
                     "aps_algo_supernight" : 0,
-                    "aps_algo_superphoto" : 0,
+                    "aps_algo_superphoto" : 1,
                     "aps_algo_watermark" : 1,
                     "aps_algo_face_beauty" : 0,
                     "aps_algo_rotate_mirror" : 1,
@@ -202,7 +202,7 @@
                     "aps_algo_single_blur" : 0,
                     "aps_algo_upscale" : 1,
                     "aps_algo_video_blur" : 0,
-                    "aps_algo_dered_eye" : 0,
+                    "aps_algo_dered_eye" : 1,
                     "aps_algo_face_info" : 1
                 },
                 {
@@ -421,10 +421,10 @@
                     "aps_algo_watermark" : 0,
                     "aps_algo_face_beauty" : 0,
                     "aps_algo_rotate_mirror" : 1,
-                    "aps_algo_filter" : 0,
+                    "aps_algo_filter" : 1,
                     "aps_algo_single_blur" : 0,
                     "aps_algo_upscale" : 1,
-                    "aps_algo_video_blur" : 0
+                    "aps_algo_video_blur" : 1
                 },
                 {
                     "id" : 1,
@@ -438,7 +438,7 @@
             "entity" : [
                 {
                     "id" : 0,
-                    "enable" : 0,
+                    "enable" : 1,
                     "aps_algo_blurless" : 1,
                     "aps_algo_bokeh" : 0,
                     "aps_algo_hdr" : 0,
@@ -1019,7 +1019,7 @@
                             "third_input_height": 0,
                             "output_width": 1440,
                             "output_height": 1080,
-                            "skip_frame_cnt": 7,
+                            "skip_frame_cnt": 0,
                             "pipeline_copy_from": "pipeline_default",
                             "algonode_copy_from": "preview_default",
                             "algo_list": [ "preview_asd" ]
@@ -1143,7 +1143,7 @@
                             "skip_frame_cnt": 0,
                             "pipeline_copy_from": "",
                             "algonode_copy_from": "",
-                            "algo_list": [ "preview_default" ]
+                            "algo_list": [ "preview_rectify" ]
                         },
                         "video": {
                             "enable": 1,
